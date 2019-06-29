@@ -126,7 +126,7 @@ function checkGameEnd() {
 	const winner = document.querySelector(".winner");
 
     if (pScore === 5 || cScore === 5) {
-        winner.textContent = 'Draw Game! Try again!'
+        winner.textContent = 'Draw Game! Try again!';
         pScore = 0;
         cScore = 0;
     }
@@ -138,12 +138,12 @@ function checkGameEnd() {
 
 
     } else if (cScore === 5) {
-        winner.textContent = 'Computer Win! Try again!'
+        winner.textContent = 'Computer Win! Try again!';
         pScore = 0;
         cScore = 0;
 
     }
-};
+}
 
 
  //Is call all the inner function

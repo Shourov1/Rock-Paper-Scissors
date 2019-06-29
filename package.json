@@ -1,0 +1,13 @@
+{
+    "name": "Rock-Paper-Scissors",
+    "description": "Simple Travis-CI check for JSHint (Code Linting)",
+    "author": "Md Shariful Alam",
+    "version": "0.0.1",
+    "devDependencies": {
+      "jshint": "^2.6.0"
+    },
+    "scripts": {
+      "test": "jshint app.js"
+    }
+  }
+  

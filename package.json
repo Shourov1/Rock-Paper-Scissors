@@ -7,7 +7,7 @@
       "jshint": "^2.6.0"
     },
     "scripts": {
-      "test": "jshint app.js"
+      "test": "jshint index.html"
     }
   }
   
